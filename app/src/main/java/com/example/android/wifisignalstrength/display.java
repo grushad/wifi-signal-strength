@@ -47,7 +47,6 @@ public class display extends AppCompatActivity {
                 +"RSSI: "+String.valueOf(rssi)+"\n"
                 +"Strength(Out of 5): "+String.valueOf(calc);
 
-        //createFile(this);
         Button button=findViewById(R.id.info);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
